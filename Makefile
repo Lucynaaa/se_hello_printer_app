@@ -9,3 +9,7 @@ lint:
 
 test:
 	PYTHONPATH=. py.test
+
+docker_build:
+	docker build -t hello-world-printer .
+	
