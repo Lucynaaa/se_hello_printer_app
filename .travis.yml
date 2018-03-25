@@ -3,8 +3,9 @@ python:
   - "2.7"
 addons:
   apt:
-    - "libffi-dev"
-    - "libssl-dev"
+    packages:
+      - libffi-dev
+      - libssl-dev
 install:
   - pip install -U pip
   - make deps
