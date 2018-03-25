@@ -1,11 +1,7 @@
 lanaguage: python
 python:
   - "2.7"
-addons:
-  apt:
-    packages:
-      - libffi-dev
-      - libssl-dev
+sudo: required
 install:
   - pip install -U pip
   - make deps
