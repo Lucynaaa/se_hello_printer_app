@@ -81,3 +81,8 @@ Materiały
 =========
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
+
+Etykiety
+
+.. image:: https://travis-ci.org/Lucynaaa/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.org/Lucynaaa/se_hello_printer_app
