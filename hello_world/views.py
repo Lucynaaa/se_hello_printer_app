@@ -7,4 +7,4 @@ msg = "Hello: "
 
 @app.route('/')
 def index():
-   return msg + ' ' + moje_imie 
+   return msg + moje_imie 
