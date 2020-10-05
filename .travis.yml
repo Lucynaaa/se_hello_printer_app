@@ -2,7 +2,7 @@ language: python
 services:
   - docker
 python:
-  - "2.7"
+  - "3.8"
 sudo: required
 install:
   - make deps
