@@ -1,7 +1,7 @@
 from hello_world import app
 from flask import request
 
-moje_imie = "Lucy&Mike"
+moje_imie = "Lucyna"
 msg = "Hello: "
 
 
